@@ -4,4 +4,7 @@ if(!has_permission(exodius.command.pig){die(colorize('&cYou do not have the perm
 msg(colorize('&cPigs don't have udders but Cows do :3'));
 /kit pig >>>
   run(colorized('/give '.player().' 298 #FF69B4 '));
+  run(colorized('/give '.player().' 299 #FF69B4 '));
+  run(colorized('/give '.player().' 300 #FF69B4 '));
+  run(colorized('/give '.player().' 301 #FF69B4 '));
 <<<
