@@ -23,6 +23,12 @@ msg(colorize('&cPigs don't have udders but Cows do :3'));
 
 pgive_item(player(), 298, 1, array(
     'color': array('r': 245,'g': 122,'b': 184)
+pgive_item(player(), 299, 1, array(
+    'color': array('r': 245,'g': 122,'b': 184)
+pgive_item(player(), 300, 1, array(
+    'color': array('r': 245,'g': 122,'b': 184)
+pgive_item(player(), 301, 1, array(
+    'color': array('r': 245,'g': 122,'b': 184)
 )
 msg(colorize('&cYou are now a PIG!'));
 <<<
