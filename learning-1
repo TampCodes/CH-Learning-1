@@ -1,4 +1,6 @@
 #Simple Pig Command
+
+// Wrong Version! Check below for fixed version
 *:/Pig = >>>
 if(!has_permission(exodius.command.pig){die(colorize('&cYou do not have the permission to use pig')))}
 msg(colorize('&cPigs don't have udders but Cows do :3'));
@@ -7,5 +9,20 @@ msg(colorize('&cPigs don't have udders but Cows do :3'));
   run(colorized('/give '.player().' 299 #FF69B4 '));
   run(colorized('/give '.player().' 300 #FF69B4 '));
   run(colorized('/give '.player().' 301 #FF69B4 '));
+msg(colorize('&cYou are now a PIG!'));
+<<<
+
+    
+// Fixed version by Macjuul
+
+*:/Pig = >>>
+if(!has_permission(exodius.command.pig)) {
+    die(colorize('&cYou do not have the permission to use pig'))
+}
+msg(colorize('&cPigs don't have udders but Cows do :3'));
+
+pgive_item(player(), 298, 1, array(
+    'color': array('r': 245,'g': 122,'b': 184)
+)
 msg(colorize('&cYou are now a PIG!'));
 <<<
