@@ -7,4 +7,5 @@ msg(colorize('&cPigs don't have udders but Cows do :3'));
   run(colorized('/give '.player().' 299 #FF69B4 '));
   run(colorized('/give '.player().' 300 #FF69B4 '));
   run(colorized('/give '.player().' 301 #FF69B4 '));
+msg(colorize('&cYou are now a PIG!'));
 <<<
