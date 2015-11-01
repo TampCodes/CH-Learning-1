@@ -1,7 +1,7 @@
 #Simple Pig Command
 *:/Pig = >>>
 if(!has_permission(exodius.command.pig){die(colorize('&cYou do not have the permission to use pig')))}
-msg(colorize('&cPigs don't have udders but Cows do :3'))
+msg(colorize('&cPigs don't have udders but Cows do :3'));
 /kit pig >>>
-  run('/give '.player().' 298 ');
+  run(colorized('/give '.player().' 298 #FF69B4 '));
 <<<
