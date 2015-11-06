@@ -1,6 +1,6 @@
 #Kit Cow
 *:/Kit Cow
-iF(!has_permission(exodius.command.cow)) {
+if(!has_permission(exodius.command.cow)) {
 _Warn() &c&lYou do not have permission to run this command
 } else {
   pgive_item(player(), 298, 1,)
@@ -12,3 +12,4 @@ _Warn() &c&lYou do not have permission to run this command
   pgive_item(player(), 301, 1,)
   
   _warn() &cYou are now a Cow!
+}
