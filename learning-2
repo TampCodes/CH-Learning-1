@@ -3,13 +3,13 @@
 if(!has_permission(exodius.command.cow)) {
 _Warn() &c&lYou do not have permission to run this command
 } else {
-  pgive_item(player(), 298, 1,)
-  
-  pgive_item(player(), 299, 1,)
-  
-  pgive_item(player(), 300, 1,)
-  
-  pgive_item(player(), 301, 1,)
-  
+  pgive_item(player(), 298, 1)
+  enchant: array(array('elevel': 7, 'etype': 7))
+  pgive_item(player(), 299, 1)
+  enchant: array(array('elevel': 7, 'etype': 7))
+  pgive_item(player(), 300, 1)
+  enchant: array(array('elevel': 7, 'etype': 7))
+  pgive_item(player(), 301, 1)
+  enchant: array(array('elevel': 7, 'etype': 7))
   _warn() &cYou are now a Cow!
 }
