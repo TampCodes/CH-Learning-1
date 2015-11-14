@@ -18,5 +18,27 @@ if(!has_permission(Kit.Pickaxe)) {
 	  array('elevel 5; 'etype' 32 )
 	  )
 	  )
-	  
+
+#Fixed Version by MacJuul:
+*:/kit [$kit] = >>>
+ if($kit == 'digger') {
+ if(!has_permission('kit.pickaxe')) {
+ die(colorize('&cYou don\'t have permission to use this kit'))
+
+ }
+ pgive_item(player(), 278, 1, array(
+ 'display': 'Fast Digger',
+ 'lore': aray(
+ 'Fast Digger',
+ 'Dig faster than any other pickaxe'
+ ),
+ 'enchants': array(
+ array('elevel' 3 :, 'etype': 34 ),
+ array('elevel': 5, 'etype': 32 )
+ )
+ )
+ } else {
+ msg(colorize('&cUnknown kit'))
+ }
+ <<<
 	 
