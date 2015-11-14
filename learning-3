@@ -4,3 +4,16 @@ give <player> <Diamond_Sword> 1 {
   display:{Name:"Power Sword":,Lore:["Power Sword", "Hit any mob with this and they shall die instantly"]}
   enchant: array(array('elevel': 16, 'etype': 10))
 } #Trying to give a diamond sword to a player that's called a power sword with a description.
+
+
+#Fixed version by MacJuul:
+ pgive_item(player(), 276, 1, array(
+ 'display': 'Power Sword',
+ 'lore': array(
+ 'Power Sword',
+ 'Hit any mob with this and they shall die instantly'
+ ),
+ 'enchants': array(
+ array('elevel': 16, 'etype': 10)
+ )
+ )
