@@ -1,0 +1,22 @@
+#New Pickaxe Command
+*:/kit Digger
+
+if(!has_permission(Kit.Pickaxe)) {
+	die(colorize('&c you don't have permission to use this kit'))
+	
+}
+	pgive_item(player(), 278, 1, array(
+	'display': 'Fast Digger',
+	'lore': aray(
+	  'Fast Digger',
+	  'Dig faster than any other pickaxe'
+	  ),
+	  'enchants': array(
+	  array('elevel' 3 :, 'etype': 34 )
+	  )
+	  'enchants': array(
+	  array('elevel 5; 'etype' 32 )
+	  )
+	  )
+	  
+	 
