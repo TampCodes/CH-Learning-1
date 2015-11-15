@@ -7,7 +7,7 @@
  }
  pgive_item(player(), 278, 1, array(
  'display': 'Fast Digger',
- 'lore': aray(
+ 'lore': array(
  'Fast Digger',
  'Dig faster than any other pickaxe'
  ),
