@@ -1,0 +1,35 @@
+#New Kit OP
+*:/kit [$kit] = >>>
+ if($kit == 'PvP') {
+ if(!has_permission('kit.pickaxe')) {
+ die(colorize('&cYou don\'t have permission to use this kit'))
+
+ }
+ pgive_item(player(), 278, 1, array(
+ 'display': 'Fast Digger',
+ 'lore': aray(
+ 'Fast Digger',
+ 'Dig faster than any other pickaxe'
+ ),
+ 'enchants': array(
+ array('elevel': 3, 'etype': 34 ),
+ array('elevel': 5, 'etype': 32 )
+ )
+ )
+ pgive_item(player(), 276, 1, array(
+ 'display': 'Mighty Chopper',
+ 'lore': array(
+ 'Mighty Chopper'
+ 'Take out all Enemies in Battle!'
+ ),
+ 'enchants': array(
+ array('elevel': 16 , 'etype': 5 )
+ array('elevel': 20, 'etype': 2 )
+ )
+ launch_firework( 'R': 48, 'G': 201, 'B': 112) #Trying to launch a green firework when kit is used.
+ )
+ } else {
+ msg(colorize('&cUnknown kit'))
+ }
+
+ <<<
