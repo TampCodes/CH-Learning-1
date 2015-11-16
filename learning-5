@@ -17,16 +17,27 @@
  )
  )
  pgive_item(player(), 276, 1, array(
- 'display': 'Mighty Chopper',
+ 'display': 'Excalibur',
  'lore': array(
- 'Mighty Chopper'
+ 'Excalibur'
  'Take out all Enemies in Battle!'
  ),
  'enchants': array(
  array('elevel': 16 , 'etype': 5 )
  array('elevel': 20, 'etype': 2 )
  )
- launch_firework( 'R': 48, 'G': 201, 'B': 112) #Trying to launch a green firework when kit is used.
+ )
+ launch_firework( 48, 201, 112) 
+ pgive_item(player(), 279, 1, array(
+ 'display': 'Mighty Chopper',
+ 'lore': array(
+ 'Mighty Chopper'
+ 'Take out all trees in an instant!'
+ ),
+ 'enchants': array(
+ array('elevel': 32 , 'etype': 5 )
+ array('elevel': 34: , 'etype': 3 )
+ )
  )
  } else {
  msg(colorize('&cUnknown kit'))
