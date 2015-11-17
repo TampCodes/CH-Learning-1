@@ -9,6 +9,7 @@
  'display': 'Fast Digger',
  'lore': array(
  'Fast Digger',
+ '278:8'
  'Dig faster than any other pickaxe'
  ),
  'enchants': array(
